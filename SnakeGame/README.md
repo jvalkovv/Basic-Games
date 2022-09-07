@@ -1,5 +1,5 @@
 # Basic Games
- Basic C# Windows Applications
+ Basic Snake C# Applications
  
-1. [**SnakeGame**](https://github.com/jvalkovv/Basic-Games/tree/main/SnakeGame)
-***
+![Snake](https://user-images.githubusercontent.com/103044357/188939159-c943f617-85d1-42fe-b24b-f4599557e585.png)
+
