@@ -1,6 +1,6 @@
 namespace Snake
 {
-    internal static class Program
+    internal static class StartUp
     {
         /// <summary>
         ///  The main entry point for the application.

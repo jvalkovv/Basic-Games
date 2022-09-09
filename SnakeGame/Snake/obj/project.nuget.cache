@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YaDb+0JL/LvttYb6VOeRigPXkvOgoLrzeKX0LcPNPzvvNdNuSNoFWzVTDIJE/Pt1F9n4m1ESgcOWEYmL5eY71A==",
+  "dgSpecHash": "KwzWyUkh8uBoP8GX+IOkcSwoyO+cqCxp55J/d8amM1EQK09kA8OKqdzwykYEV+I1l2eOZ9HDYPkcIyBj7XctqQ==",
   "success": true,
-  "projectFilePath": "D:\\CSharp Projects\\Snake\\Snake\\Snake.csproj",
+  "projectFilePath": "D:\\GItHub CSharp\\Basic-Games\\SnakeGame\\Snake\\Snake.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

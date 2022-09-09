@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CSharp Projects\\Snake\\Snake\\Snake.csproj": {}
+    "D:\\GItHub CSharp\\Basic-Games\\SnakeGame\\Snake\\Snake.csproj": {}
   },
   "projects": {
-    "D:\\CSharp Projects\\Snake\\Snake\\Snake.csproj": {
+    "D:\\GItHub CSharp\\Basic-Games\\SnakeGame\\Snake\\Snake.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CSharp Projects\\Snake\\Snake\\Snake.csproj",
+        "projectUniqueName": "D:\\GItHub CSharp\\Basic-Games\\SnakeGame\\Snake\\Snake.csproj",
         "projectName": "Snake",
-        "projectPath": "D:\\CSharp Projects\\Snake\\Snake\\Snake.csproj",
+        "projectPath": "D:\\GItHub CSharp\\Basic-Games\\SnakeGame\\Snake\\Snake.csproj",
         "packagesPath": "C:\\Users\\Valkov\\.nuget\\packages\\",
-        "outputPath": "D:\\CSharp Projects\\Snake\\Snake\\obj\\",
+        "outputPath": "D:\\GItHub CSharp\\Basic-Games\\SnakeGame\\Snake\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

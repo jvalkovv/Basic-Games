@@ -2,6 +2,9 @@ namespace Snake
 {
     public partial class Form1 : Form
     {
+        private bool isEasyButtonClicked = false;
+        private bool isNormalButtonClicked = false;
+        private bool isHardButtonClicked = false;
         private List<Circle> Snake = new List<Circle>();
         private Circle food = new Circle();
 
@@ -64,6 +67,9 @@ namespace Snake
         private void StartGame(object sender, EventArgs e)
         {
             RestartGame();
+            GameField.Visible = true;
+            gameOvertxt.Visible = false;
+
         }
 
         private void GameTimerEvent(object sender, EventArgs e)
@@ -204,9 +210,56 @@ namespace Snake
             GameTimer.Start();
         }
 
+        private void ChangeDifficultyToHard(object sender, EventArgs e)
+        {
+            GameTimer.Interval = 30;
+            Level.Text = $"You choose Hard Level: {GameTimer.Interval.ToString()}";
+            isHardButtonClicked = true;
+            normalDiff.Enabled = false;
+            easyDiff.Enabled = false;
+            hardDiff.Enabled = false;
+            Level.Visible = true;
+            diffLevelTxt.Visible = false;
+
+        }
+        private void ChangeDifficultyToNormal(object sender, EventArgs e)
+        {
+            GameTimer.Interval = 50;
+            Level.Text = $"You choose Normal Level: {GameTimer.Interval.ToString()}";
+            isNormalButtonClicked = true;
+            normalDiff.Enabled = false;
+            easyDiff.Enabled = false;
+            hardDiff.Enabled = false;
+            Level.Visible = true;
+            diffLevelTxt.Visible = false;
+        }
+        private void ChangeDifficultyToEasy(object sender, EventArgs e)
+        {
+            GameTimer.Interval = 100;
+            Level.Text = $"You choose Easy Level: {GameTimer.Interval.ToString()}";
+            isEasyButtonClicked = true;
+            easyDiff.Enabled = false;
+            normalDiff.Enabled = false;
+            hardDiff.Enabled = false;
+            Level.Visible = true;
+            diffLevelTxt.Visible = false;
+        }
+
+
         private void Eat()
         {
-            score += 1;
+            if (isHardButtonClicked == true)
+            {
+                score += 3;
+            }
+            else if (isNormalButtonClicked == true)
+            {
+                score += 2;
+            }
+            else if (isEasyButtonClicked == true)
+            {
+                score += 1;
+            }
             txtScore.Text = $"Score: {score}";
 
             Circle body = new Circle
@@ -224,7 +277,13 @@ namespace Snake
         private void GameOver()
         {
             GameTimer.Stop();
+            gameOvertxt.Visible = true;
             startButton.Enabled = true;
+            easyDiff.Enabled = true;
+            normalDiff.Enabled = true;
+            hardDiff.Enabled = true;
+            Level.Visible = false;
+            diffLevelTxt.Visible = true;
         }
     }
 }
