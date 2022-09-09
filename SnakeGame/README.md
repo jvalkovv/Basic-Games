@@ -17,7 +17,7 @@ Normal level -> Each food is equal to two points, and then they are summed up.
  Game Over -> The game is over only when the snake bite himself. 
  ![GameOver](https://user-images.githubusercontent.com/103044357/189385856-a6625e06-9863-4e53-8ac2-aff660768a47.png)
 
-The old vision of the game.
+The old vision of the game:
 
 ![Snake](https://user-images.githubusercontent.com/103044357/188939159-c943f617-85d1-42fe-b24b-f4599557e585.png)
 
