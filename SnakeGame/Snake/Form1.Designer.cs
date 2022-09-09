@@ -83,7 +83,7 @@
             this.gameOvertxt.AutoSize = true;
             this.gameOvertxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.gameOvertxt.Font = new System.Drawing.Font("Showcard Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.gameOvertxt.Location = new System.Drawing.Point(318, 141);
+            this.gameOvertxt.Location = new System.Drawing.Point(315, 141);
             this.gameOvertxt.Name = "gameOvertxt";
             this.gameOvertxt.Size = new System.Drawing.Size(183, 39);
             this.gameOvertxt.TabIndex = 5;
