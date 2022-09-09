@@ -1,9 +1,9 @@
 # Basic Games
  Basic Snake C# Applications
  
- Adding buttons to select a difficulty level.
+ Added buttons to select a difficulty level.
  
- Adding new points system for the different difficulty levels.
+ Added new points system for the different difficulty levels.
  
  Easy level -> Each food is equal to one point, and then they are summed up. 
   ![EasyLevel](https://user-images.githubusercontent.com/103044357/189385760-048dcce0-f77a-4fe8-9bc5-416528b1ecc4.png)
